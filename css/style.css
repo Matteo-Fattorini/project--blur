@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Roboto",sans-serif;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.bg {
+    background: url("img/img.jfif");
+    background-color: rgba(8, 8, 8,0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: -5;
+    background-blend-mode: multiply;
+    filter: blur(30px)
+
+}
+
+
+.number {
+    color: white;
+    font-size: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}
